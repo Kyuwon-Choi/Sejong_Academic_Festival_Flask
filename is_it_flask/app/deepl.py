@@ -1,7 +1,7 @@
 import requests
 import logging
 
-DEEPL_API_KEY = ''
+DEEPL_API_KEY = '2a99de55-b6dd-4743-9f3e-615b6c4d8d8f:fx'
 
 def deepl_translate(text, target_lang='EN'):
     logging.debug(f"Translating text: {text} to {target_lang}")
